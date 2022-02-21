@@ -28,7 +28,11 @@ rootProject.allprojects {
         jcenter()
         maven {
             name 'Forge'
-            url 'http://files.minecraftforge.net/maven'
+            url 'https://maven.minecraftforge.net/'
+        }
+        maven {
+            name 'Minecraft'
+            url 'https://libraries.minecraft.net/'
         }
 //        maven {
 //            name 'MinecraftS3'
@@ -36,11 +40,11 @@ rootProject.allprojects {
 //        }
         maven {
             name "OpenMods"
-            url "http://repo.openmods.info/artifactory/openmods"
+            url "https://repo.openmods.info/artifactory/openmods"
         }
         maven {
             name "OpenMods Extras"
-            url 'http://repo.openmods.info/artifactory/thirdparty'
+            url 'https://repo.openmods.info/artifactory/thirdparty'
         }
     }
 }
